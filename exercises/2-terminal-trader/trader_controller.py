@@ -1,2 +1,2 @@
-import bank_models
-import bank_views
+import trader_models
+import trader_views
