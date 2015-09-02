@@ -1,6 +1,6 @@
 ## Markit API Wrapper
 
-Today is your first challenge using an API. Cool!
+Today is your first challenge using a web API. Cool!
 
 First install 'requests' using pip3. We'll be dependent on this library, as it is definitely the best [HTTP request library](http://docs.python-requests.org/en/latest/) in Python. Take a look at the code snippet and get an idea of what it's doing. We'll be using requests to get live stock market data.
 
