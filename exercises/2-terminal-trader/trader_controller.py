@@ -1,2 +1,0 @@
-import trader_models
-import trader_views
