@@ -2,11 +2,13 @@
 
 Today is your first challenge using a web API. Cool!
 
-First install 'requests' using pip3. We'll be dependent on this library, as it is definitely the best [HTTP request library](http://docs.python-requests.org/en/latest/) in Python. Take a look at the code snippet and get an idea of what it's doing. We'll be using requests to get live stock market data.
+[HTTP request library](https://3.python-requests.org/) in Python. Take a look at the code snippet and get an idea of what it's doing. We'll be using requests to get live stock market data.
 
 The API we'll be using is [Markit on Demand](http://dev.markitondemand.com/MODApis/Api/v2/doc)
 
 How do HTTP requests work? Well, everytime you browse the web you are making http requests. You are asking for data from a URL. Your browser usually expects data in the form of HTML.
+
+![HTTP](https://i.imgur.com/2KnSMOr.png)
 
 We could request HTML in our code also, but it's kind of a mess. Instead we're going to request [JSON](http://en.wikipedia.org/wiki/JSON), which Python will treat like a native object courtesy of the requests library.
 
