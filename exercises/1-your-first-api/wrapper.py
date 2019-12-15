@@ -25,7 +25,7 @@ class API:
 		return res, err
 	
 	def post(self, path, json=None):
-		res = request.post(self.base_url+path, json=json or {})
+		res = request.post(self.base_url+path, headers=self.headers, json=json or {})
 		err = self.__process_error(res)
 		
 		return res, err
